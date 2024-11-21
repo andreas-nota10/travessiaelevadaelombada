@@ -1,0 +1,107 @@
+* {
+    margin: 0;	
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('https://setassinalizacao.com.br/wp-content/uploads/2022/07/placa-de-lombada.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+header {
+    background-color: rgba(255, 215, 0, 0.9);
+    color: #000;
+    text-align: center;
+    padding: 1.5em 0;
+}
+
+header h1 {
+    font-size: 2em;
+}
+
+.intro-text {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #333;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+.device {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.device h2 {
+    color: #FFD700;
+    margin-bottom: 10px;
+}
+
+.highlight {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFD700;
+    margin-bottom: 15px;
+}
+
+.device-img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #FFD700;
+}
+
+.device p {
+    margin-bottom: 10px;
+}
+
+.warning {
+    color: #ff4d4d;
+    font-weight: bold;
+}
+
+.device h3 {
+    color: #FFD700;
+    margin-top: 20px;
+}
+
+.gallery {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.gallery h2 {
+    color: #FFD700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery-container {
+    display: flex;
+    flex-wrap: wrap;
